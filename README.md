@@ -27,7 +27,6 @@ src="front-end/src/img/Tuner-back-end-songs-pg.png" width="350"></img>
 
 <h2> Here are the Github repository links: The COOL-tuner-app </h2>
       <ul>
-<br>
         <li>Backend_URL: https://github.com/judychuepursuit/lab-express-sql-seed-read</li>
 <br>
         <li>Frontend_URL: https://github.com/judychuepursuit/tuner-front-app-2</li>
