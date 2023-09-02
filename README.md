@@ -12,7 +12,7 @@ https://github.com/judychuepursuit
 tuner-front-app is the frontend portion (REACT) that pairs with the lab-express-sql-seed-read backend portion (EXPRESS) for the Project named:
 tuner-front-app
 
-h3>Tuner-App Home-pg:<h3> 
+<h3>Tuner-App Home-pg:<h3> 
 <img alt="tuner-app-home-page" 
 src="front-end/src/img/Tuner-frnt-home pg.png" width="350"></img>
 <br> 
