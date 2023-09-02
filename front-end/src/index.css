@@ -42,11 +42,11 @@ header nav {
 }
   
 @keyframes neon {
-  0%, 39%, 41%, 59%, 61%, 100% {
+  0%, 39%, 31%, 59%, 61%, 90% {
     text-shadow: 
     white 0 0 12px,
     #ff3aad 0 0 24px,
-    #ff3aad 0 0 35px;
+    #ef95e1 0 0 35px;
   }
   40%, 60% {
     text-shadow: none;
@@ -55,7 +55,7 @@ header nav {
 
 a {
   text-decoration: none;
-  color: var(--light-teal);
+  color: var(--medium-teal-2);
 }
 
 a:hover {
@@ -87,7 +87,7 @@ th {
 
 td a {
   /* color: var(--jet); */
-  color: var(--light-teal);
+  color: var(--light-teal-2);
   font-size: 1.3em;
 }
 
@@ -115,8 +115,11 @@ textarea {
   display: block;
   width: 90%;
   margin: 10px;
-  background-color: #afd7ed;
-  opacity: 0.4;
+  background-color: #deeef7;
+  border-color: var(--light-teal-2);
+  border-style: dotted;
+  font-weight: bold;
+  /* opacity: 0.4; */
 }
 
 input[type="checkbox"] {
@@ -125,8 +128,10 @@ input[type="checkbox"] {
 }
 
 input[type="submit"] {
-  width: 30%;
-  color: var(--dark-blue);
+  background-color: var(--medium-teal-2);
+  border-radius: 15px;
+  width: 20px;
+  color: white;
 }
 
 .showNavigation {
@@ -172,7 +177,7 @@ header {
 
 nav {
   grid-area: nav;
-  background-color: var(--light-teal);
+  background-color: var(--light-violet);
 }
 
 main {
@@ -185,7 +190,7 @@ main {
 aside {
   grid-area: aside;
   margin-right: 0.5rem;
-  background: var(--light-teal-2);
+  background: var(--med-violet);
 }
 
 footer {
@@ -228,7 +233,7 @@ input[type="submit"] {
 button:hover,
 input[type="submit"]:hover {
   background-color: var(--black);
-  color: var(--oasis-blue);
+  color: var(--medium-teal-2);
 }
 
 button:active {
@@ -236,6 +241,7 @@ button:active {
 }
 .delete-button {
   background-color: var(--shady-sand);
+  color: var(--medium-teal-2);
 }
 
 .Index button {
